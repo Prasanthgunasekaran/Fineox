@@ -1,0 +1,153 @@
+/* media quer */
+/* @media screen and (max-width:320px) {
+
+    .bg,
+    .services,
+    .about,
+    .team-title {
+        grid-template-columns: repeat(1, auto);
+
+    }
+
+    .home-img>img,
+    .about-1>img {
+        width: 200px;
+        object-fit: contain;
+    }
+
+    .bg>.home-1>h1 {
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    .bg>.home-1>p {
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    .bg>.home-1>.home-btn {
+        padding: 0.5rem;
+        font-size: small;
+
+    }
+
+    .services-btn>a {
+        left: 35%;
+
+
+    }
+
+    .about>.about-1>a {
+        font-size: 1rem;
+    }
+
+
+    .footer-title {
+        flex-direction: column;
+        justify-content: start;
+        gap: 1.3rem;
+        align-items: start;
+        padding: 1rem;
+    }
+} */
+
+
+
+
+@media only screen and (min-width:300px) and (max-width:426px) {
+
+    .bg,
+    .services,
+    .about,
+    .team-title {
+        grid-template-columns: auto;
+        gap: 3rem;
+
+    }
+
+    .home-img img,
+    .about-1 img {
+        width: 200px;
+        object-fit: contain;
+
+    }
+
+
+    .bg>.home-1>h1 {
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+
+    .bg>.home-1>p {
+        font-size: 1rem;
+        font-weight: 100;
+    }
+
+    .bg>.home-1>.home-btn {
+        padding: 0.2rem;
+        font-size: x-large;
+
+    }
+
+    .services-btn>a {
+        left: 35%;
+    }
+
+    .footer-title {
+        flex-direction: column;
+        justify-content: start;
+        gap: 1.3rem;
+        align-items: start;
+        padding: 1rem;
+    }
+
+
+}
+
+@media only screen and (min-width:426px) and (max-width:768px) {
+
+    .bg,
+    .about,
+    .team-title,
+    .services {
+        grid-template-columns: repeat(2, auto);
+        gap: 3rem;
+
+    }
+
+    .home-img img,
+    .about-1 img {
+        width: 350px;
+        object-fit: contain;
+
+    }
+
+
+    .bg>.home-1>h1 {
+        font-size: 1.8rem;
+        font-weight: bolder;
+    }
+
+    .bg>.home-1>p {
+        font-size: 1.2rem;
+        font-weight: 100;
+    }
+
+    .bg>.home-1>.home-btn {
+        padding: 0.5rem;
+        font-size: x-large;
+
+    }
+
+    .services-btn>a {
+        left: 45%;
+    }
+
+    .footer-title {
+        flex-direction: column;
+        justify-content: start;
+        gap: 1.3rem;
+        align-items: start;
+        padding: 1rem;
+    }
+}
